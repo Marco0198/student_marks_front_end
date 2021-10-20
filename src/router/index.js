@@ -5,7 +5,7 @@ import About from '../views/About.vue'
 import Student from '../views/Student.vue'
 import Examinations from '../views/Examinations.vue'
 import Papers from '../views/Papers.vue'
-import Marks from '../views/Student.vue'
+import Marks from '../views/Marks.vue'
 import Grades from '../views/Grades.vue'
 import Results from '../views/Results.vue'
 Vue.use(VueRouter)

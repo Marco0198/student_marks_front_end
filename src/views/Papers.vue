@@ -40,13 +40,13 @@
         <table>
             <thead>
                 <tr>
-                    <th>Student Id</th>
+                    <th>Paper Number</th>
                     <th>Student Name</th>
-                    <th> Phone Number</th>
-                    <th> Student Number</th>
-                    <th> Student Email</th>
-                    <th> Student Password</th>
-                    <th> Student Adress</th>
+                    <th> Paper subject</th>
+                    <th> Marks decription</th>
+                   
+                    <th> marks</th>
+                    <th> Student number</th>
                     <th> Action</th>
 
                 </tr>
@@ -59,7 +59,6 @@
                     <td>{{ user.studentPhoneNumber }}</td>
                     <td>{{ user.studentNumber }}</td>
                     <td>{{ user.studentEmail }}</td>
-                    <td>{{ user.studentPassword }}</td>
                     <td>{{ user.studentAddress }}</td>
                     <td><button class="btn btn-primary" v-b-modal="'my-modal'">Edit</button> <button class="btn btn-danger" @click="deleteUser(user.studentId)">Delete</button></td>
                 </tr>

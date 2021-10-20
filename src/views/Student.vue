@@ -1,7 +1,7 @@
 <template>
 <Layout name="LayoutDefault">
     <div>
-        <h1 style="margin-bottom:50px;">Students12</h1><br>
+        <h1 style="margin-bottom:50px;">Students</h1><br>
         <b-button style=" float:left; margin-bottom:20px;" class="btn  btn-warning" v-b-modal.modal-prevent-closing>Create Student</b-button>
 
         <div class="mt-3">

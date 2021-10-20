@@ -14,8 +14,8 @@
         <b-nav-item to="/student">Students</b-nav-item>
         <b-nav-item to="/grades">Grades</b-nav-item>
         <b-nav-item to="/papers">Papers</b-nav-item>
-        <b-nav-item to="results">Results</b-nav-item>
-        <b-nav-item to="examinations">Examinations</b-nav-item>
+        <b-nav-item to="/results">Results</b-nav-item>
+        <b-nav-item to="/examinations">Examinations</b-nav-item>
         <b-nav-item to="/marks" >Marks</b-nav-item>  
       </b-navbar-nav>
     </b-collapse>
